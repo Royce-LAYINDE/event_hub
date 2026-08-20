@@ -1,0 +1,24 @@
+{
+  "name": "eventhub",
+  "version": "1.0.0",
+  "private": true,
+  "description": "EventHub - plateforme de gestion d'evenements du Dakar Institute of Technology",
+  "workspaces": [
+    "services/*",
+    "frontend"
+  ],
+  "scripts": {
+    "test": "npm run test --workspaces --if-present",
+    "build": "npm run build --workspaces --if-present",
+    "typecheck": "npm run typecheck --workspaces --if-present",
+    "db:migrate": "npm run db:migrate --workspaces --if-present",
+    "db:seed": "npm run db:seed --workspaces --if-present",
+    "docker:build": "docker compose build",
+    "docker:up": "docker compose up -d",
+    "docker:down": "docker compose down",
+    "smoke": "bash scripts/smoke-test.sh"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
