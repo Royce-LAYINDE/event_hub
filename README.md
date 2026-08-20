@@ -256,9 +256,4 @@ Chaque service backend suit la meme organisation : `routes/` pour les endpoints,
 | Conteneurisation | Docker multi-stage, Docker Compose, nginx |
 | CI/CD | GitHub Actions, GitHub Container Registry |
 
-## Auteurs
 
-Projet realise dans le cadre de l'examen DevOps du Master 1 Intelligence artificielle du
-Dakar Institute of Technology.
-
-- Royce LAYINDE
